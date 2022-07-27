@@ -13,4 +13,4 @@ jobs:
       - name: run pytest
         run: | 
           pwd
-          pytest tests
+          pytest -vs tests

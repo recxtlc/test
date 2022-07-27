@@ -11,4 +11,6 @@ jobs:
       - name: install pytest
         run: pip3 install pytest
       - name: run pytest
-        run: pytest
+        run: | 
+          pwd
+          pytest tests

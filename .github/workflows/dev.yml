@@ -7,7 +7,7 @@ jobs:
       - name: checkout to branch
         uses: actions/checkout@v3
         with:
-          Token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.GITHUB_TOKEN}}
       - name: install python 
         uses: actions/setup-python@v4
       - name: install pytest
